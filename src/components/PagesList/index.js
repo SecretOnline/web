@@ -1,9 +1,9 @@
-import React, { PropTypes } from "react"
+import React, { PropTypes } from 'react';
 
-import PagePreview from "../PagePreview"
+import PagePreview from '../PagePreview';
 
 const PagesList = ({ pages }) => {
-  return (
+    return (
     <div>
       {
       pages.length
@@ -16,14 +16,14 @@ const PagesList = ({ pages }) => {
         }
         </ul>
       )
-      : "No posts yet."
+      : 'No posts yet.'
     }
     </div>
-  )
-}
+    );
+};
 
 PagesList.propTypes = {
-  pages: PropTypes.array.isRequired,
-}
+    pages: PropTypes.array.isRequired,
+};
 
-export default PagesList
+export default PagesList;

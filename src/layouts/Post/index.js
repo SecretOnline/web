@@ -1,12 +1,12 @@
-import React, { PropTypes } from "react"
+import React, { PropTypes } from 'react';
 
-import Page from "../Page"
+import Page from '../Page';
 
 const Post = (props) => {
   // it's up to you to choose what to do with this layout ;)
-  const pageDate = props.head.date ? new Date(props.head.date) : null
+    const pageDate = props.head.date ? new Date(props.head.date) : null;
 
-  return (
+    return (
     <Page
       { ...props }
       header={
@@ -20,11 +20,11 @@ const Post = (props) => {
         </header>
       }
     />
-  )
-}
+    );
+};
 
 Post.propTypes = {
-  head: PropTypes.object.isRequired,
-}
+    head: PropTypes.object.isRequired,
+};
 
-export default Post
+export default Post;
