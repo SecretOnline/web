@@ -10,17 +10,22 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: calc(60rem + (var(--nav-item-padding) * 2));
   margin: 0 auto;
   padding: 0;
   line-height: 3rem;
 }
 
-.navPart1,
-.navPart2 {
+.navPart1 {
   display: flex;
   flex-direction: row;
+}
+
+.title {
+  margin: 0;
+  padding: 0.5em;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .link {

@@ -16,7 +16,7 @@ export default (config = {}) => {
       features: {
         customProperties: {
           variables: {
-            mainColor: "#111",
+            mainColor: "#185500",
             mainColorContrasted: "#eee",
           },
         },

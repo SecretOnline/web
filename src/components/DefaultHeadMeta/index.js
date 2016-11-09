@@ -14,6 +14,7 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
       ] }
       script={ [
         { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
+        {"type": "application/javascript", "innerHTML": "(function(l,o,a,d,e,r){d=o.head;function f(){a.forEach(function(u){r=o.createElement('link');r.rel='stylesheet';r.href=u;d.appendChild(r);});}e=requestAnimationFrame;if (e)e(f);else l.addEventListener('load',f);}(window,document,['https://fonts.googleapis.com/css?family=Open+Sans','https://fonts.googleapis.com/css?family=Roboto+Mono']));"},
       ] }
     />
 
