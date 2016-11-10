@@ -8,4 +8,40 @@
 
 .heading {
   color: #185500;
+  margin: 0;
+}
+
+.header,
+.headerWImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  margin: 0 -1em;
+  position: relative;
+}
+
+.headerWImg {
+  background-size: cover;
+  background-position: center;
+  min-height: 10em;
+}
+
+.headerWImg {
+  color: #fff;
+}
+
+.headerWImg .heading {
+  color: inherit;
+  font-size: 2.5em;
+}
+
+.headerWImg::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }

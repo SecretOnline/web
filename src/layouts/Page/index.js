@@ -44,17 +44,29 @@ const Page = (
     { name: 'description', content: head.description },
   ];
 
+  const headList = [];
+  const headStyle = {};
+  let headClass = styles.header;
+
+  if (head.img) {
+    headClass = styles.headerWImg;
+    headStyle.backgroundImage = `url(${head.img})`;
+    console.log('setting image' + head.img);
+  }
+  if (head.title) {
+    headList.push(<h1 className={ styles.heading }>{ head.title }</h1>);
+  }
+  if (header) {
+    headList.push(header);
+  }
+
   return (
     <div className={ styles.page }>
       <Helmet
         title={ metaTitle }
         meta={ meta }
       />
-      {
-        head.title &&
-        <h1 className={ styles.heading }>{ head.title }</h1>
-      }
-      { header }
+      <div className={headClass} style={headStyle}>{headList}</div>
       {
         isLoading
         ? <Loading />

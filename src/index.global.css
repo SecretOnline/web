@@ -50,6 +50,7 @@ body {
 :--headings {
   position: relative;
   line-height: 1em;
+  font-weight: normal;
 }
 
 :root {

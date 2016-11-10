@@ -2,6 +2,8 @@ import React, { PropTypes } from 'react';
 
 import Page from '../Page';
 
+import styles from './index.css';
+
 const Post = (props) => {
   // it's up to you to choose what to do with this layout ;)
   const pageDate = props.head.date ? new Date(props.head.date) : null;
@@ -10,14 +12,14 @@ const Post = (props) => {
     <Page
       { ...props }
       header={
-        <header>
+        <div className={styles.time}>
           {
           pageDate &&
           <em><time key={ pageDate.toISOString() }>
             { pageDate.toDateString() }
           </time></em>
         }
-        </header>
+        </div>
       }
     />
   );
