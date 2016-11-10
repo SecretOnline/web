@@ -8,7 +8,7 @@ const numberOfLatestPosts = 6;
 
 const Homepage = (props, { collection }) => {
   const latestPosts = enhanceCollection(collection, {
-    filter: { layout: 'Post' },
+    filters: [{ layout: 'Post'}, i=>!i.hidden],
     sort: 'date',
     reverse: true,
   })

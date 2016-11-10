@@ -51,7 +51,6 @@ const Page = (
   if (head.img) {
     headClass = styles.headerWImg;
     headStyle.backgroundImage = `url(${head.img})`;
-    console.log('setting image' + head.img);
   }
   if (head.title) {
     headList.push(<h1 className={ styles.heading }>{ head.title }</h1>);
