@@ -52,6 +52,10 @@ const Page = (
     headClass = styles.headerWImg;
     headStyle.backgroundImage = `url(${head.img})`;
   }
+  if (head.bgcolor) {
+    headClass = styles.headerWColor;
+    headStyle.backgroundColor = head.bgcolor;
+  }
   if (head.title) {
     headList.push(<h1 className={ styles.heading }>{ head.title }</h1>);
   }

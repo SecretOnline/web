@@ -9,7 +9,9 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
           name: 'generator', content: `${process.env.PHENOMIC_NAME } ${ process.env.PHENOMIC_VERSION }`
         },
         { property: 'og:site_name', content: pkg.name },
-        { name: 'twitter:site', content: `@${ pkg.twitter }` }
+        { name: 'twitter:site', content: `@${ pkg.twitter }` },
+        { name: 'theme-color', content: '#185500' },
+        { name: 'msapplication-TileColor', content: '#185500' }
       ] }
       script={ [
         { src: 'https://cdn.polyfill.io/v2/polyfill.min.js' },

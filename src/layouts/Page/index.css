@@ -12,6 +12,7 @@
 }
 
 .header,
+.headerWColor,
 .headerWImg {
   display: flex;
   flex-direction: column;
@@ -20,17 +21,22 @@
   position: relative;
 }
 
+.headerWColor,
+.headerWImg {
+  color: #fff;
+}
+
 .headerWImg {
   background-size: cover;
   background-position: center;
   min-height: 10em;
-  color: #fff;
 }
 
 .headerWImg div {
   position: relative;
 }
 
+.headerWColor .heading,
 .headerWImg .heading {
   color: inherit;
 }
