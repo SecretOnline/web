@@ -16,6 +16,9 @@
         "react"
     ],
     "rules": {
+        "no-unused-vars": [
+          "off"
+        ],
         "indent": [
             "error",
             4
@@ -32,5 +35,9 @@
             "error",
             "always"
         ]
+    },
+    "globals": {
+      "process": "false",
+      "__dirname": "true"
     }
 }
