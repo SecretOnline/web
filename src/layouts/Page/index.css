@@ -17,7 +17,6 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1em 1.5em;
-  margin: 0 -1em;
   position: relative;
 }
 
@@ -34,7 +33,6 @@
 
 .headerWImg .heading {
   color: inherit;
-  font-size: 2.5em;
 }
 
 .headerWImg::before {

@@ -90,14 +90,13 @@ code {
   overflow-x: auto;
   color: #abb2bf;
   background: #282c34;
-  padding: 0.2em;
+  padding: 0.2em 0.3em;
   border-radius: 0.1em;
 }
 
 code {
   display: inline-block;
   margin-bottom: -0.5em;
-  margin-top: 0.5em;
 }
 
 pre > code {
@@ -109,6 +108,7 @@ blockquote {
   padding: 8px;
   padding-left: calc(8px + 1.2em);
   position: relative;
+  margin: 1ch;
 }
 
 blockquote::before {

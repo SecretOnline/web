@@ -1,32 +1,20 @@
 ---
-title: Phenomic base theme
+title: Hi, I'm secret_online
 layout: Homepage
+img: /assets/img/omt.png
 ---
 
-Hi there.
+I'm a random person on the internet!
 
-Before having fun with Phenomic, be sure to read (or at least pretend to)
-the documentation :
+I enjoy games, especially Minecraft, although I do play more than just that. I have an interest in programming, making games (but mostly playing them), and low-poly art (although I'm really bad at it).
 
-* [Setup](https://phenomic.io/docs/setup/)
-* [Getting Started](https://phenomic.io/docs/getting-started/)
-* [Usage](https://phenomic.io/docs/usage/)
-* [FAQ](https://phenomic.io/docs/faq/)
+> What do you need a quote for?
+> <cite>My dad</cite>
 
-Also take a look to
-[existing websites that use Phenomic](https://phenomic.io/showcase/),
-some projects share their source code!
+Sometimes I make little projects over on [GitHub](https://github.com/SecretOnline). You're welcome to use them, and even to contribute.
 
-Built with
-<a href="https://facebook.github.io/react/">
-  <img alt="" src="assets/react.svg" width="16" height="16" />
-  React
-</a>.
+I used to run a small [Minecraft server](/scoran/). I put a lot of time into that, and I'm proud of what I did on it. That time of my life has passed, but I will always remember the great times/people I had/met over those 4 years.
 
----
+This website is still rather quiet, and I'd like to do more with it. I'm in the process of converting it, so it will get some love.
 
-You may want to take a look to the <a href="/404.html">404.html</a>.
-
-If you want to adjust those, directly adjust them in ``src/layouts/``.
-
----
+If you want to get in contact with me, then you can visit the [about page](/about/#contact).
