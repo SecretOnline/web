@@ -22,29 +22,29 @@ const Page = (
     metadata: { pkg },
   }
 ) => {
-    invariant(
+  invariant(
     typeof head.title === 'string',
     `Your page '${ __filename }' needs a title`
   );
 
-    const metaTitle = head.metaTitle ? head.metaTitle : head.title;
+  const metaTitle = head.metaTitle ? head.metaTitle : head.title;
 
-    const meta = [
+  const meta = [
     { property: 'og:type', content: 'article' },
     { property: 'og:title', content: metaTitle },
-        {
-            property: 'og:url',
-            content: joinUri(process.env.PHENOMIC_USER_URL, __url),
-        },
+    {
+      property: 'og:url',
+      content: joinUri(process.env.PHENOMIC_USER_URL, __url),
+    },
     { property: 'og:description', content: head.description },
     { name: 'twitter:card', content: 'summary' },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:creator', content: `@${ pkg.twitter }` },
     { name: 'twitter:description', content: head.description },
     { name: 'description', content: head.description },
-    ];
+  ];
 
-    return (
+  return (
     <div className={ styles.page }>
       <Helmet
         title={ metaTitle }
@@ -63,22 +63,22 @@ const Page = (
       { children }
       { footer }
     </div>
-    );
+  );
 };
 
 Page.propTypes = {
-    isLoading: PropTypes.boolean,
-    children: PropTypes.node,
-    __filename: PropTypes.string.isRequired,
-    __url: PropTypes.string.isRequired,
-    head: PropTypes.object.isRequired,
-    body: PropTypes.string,
-    header: PropTypes.element,
-    footer: PropTypes.element,
+  isLoading: PropTypes.boolean,
+  children: PropTypes.node,
+  __filename: PropTypes.string.isRequired,
+  __url: PropTypes.string.isRequired,
+  head: PropTypes.object.isRequired,
+  body: PropTypes.string,
+  header: PropTypes.element,
+  footer: PropTypes.element,
 };
 
 Page.contextTypes = {
-    metadata: PropTypes.object.isRequired,
+  metadata: PropTypes.object.isRequired,
 };
 
 export default Page;

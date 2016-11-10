@@ -29,13 +29,13 @@ const PageError = ({ error, errorText }) => (
 );
 
 PageError.propTypes = {
-    error: PropTypes.oneOfType([ PropTypes.number, PropTypes.string ]),
-    errorText: PropTypes.string,
+  error: PropTypes.oneOfType([ PropTypes.number, PropTypes.string ]),
+  errorText: PropTypes.string,
 };
 
 PageError.defaultProps = {
-    error: 404,
-    errorText: 'Page Not Found',
+  error: 404,
+  errorText: 'Page Not Found',
 };
 
 export default PageError;

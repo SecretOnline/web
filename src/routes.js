@@ -12,10 +12,10 @@ const PageContainer = (props) => (
   <PhenomicPageContainer
     { ...props }
     layouts={{
-        Page,
-        PageError,
-        Homepage,
-        Post,
+      Page,
+      PageError,
+      Homepage,
+      Post,
     }}
   />
 );
