@@ -25,10 +25,11 @@
   background-size: cover;
   background-position: center;
   min-height: 10em;
+  color: #fff;
 }
 
-.headerWImg {
-  color: #fff;
+.headerWImg div {
+  position: relative;
 }
 
 .headerWImg .heading {
