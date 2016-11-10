@@ -13,9 +13,9 @@ const Post = (props) => {
         <header>
           {
           pageDate &&
-          <time key={ pageDate.toISOString() }>
+          <em><time key={ pageDate.toISOString() }>
             { pageDate.toDateString() }
-          </time>
+          </time></em>
         }
         </header>
       }

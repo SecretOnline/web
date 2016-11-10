@@ -20,6 +20,8 @@ export default (config = {}) => {
           variables: {
             mainColor: '#185500',
             mainColorContrasted: '#eee',
+            textColor: '#333',
+            bgColor: '#ddd'
           },
         },
       },
