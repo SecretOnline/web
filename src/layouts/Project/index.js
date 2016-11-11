@@ -16,7 +16,7 @@ const Project = (props) => {
       { ...props }
       header={
         <div className={styles.time}>
-          {url && <a href={url}>{`${pkg.github}/${props.head.github}`}</a>}
+          {url && <a href={url} title='Repository Link'>{`${pkg.github}/${props.head.github}`}</a>}
         </div>
       }
     />

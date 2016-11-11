@@ -1,7 +1,7 @@
 ---
 title: Info-Repo
 layout: Project
-img: /assets/img/proj/info-repo/banner.png
+bgcolor: "#01385B"
 github: Info-Repo
 ---
 
@@ -42,7 +42,7 @@ I created a [fresh repository](https://github.com/SecretOnline/Info-Repo) to beg
 
 As always happens, there's always more work to do. For the next two weeks I polished the Repository until I was completely happy to put it aside.
 
-![The final version of the Repository](/assets/img/proj/info-repo/initial.png)
+![The final version of the Repository](/assets/img/proj/info-repo/final.png)
 
 *The final version of the Repository*
 

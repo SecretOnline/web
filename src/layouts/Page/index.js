@@ -87,7 +87,7 @@ const Page = (
         return arr;
       });
       crumbs.unshift(<a href='/' className={styles.crumb}>Home</a>, <span> &gt; </span>);
-      headList.push(<div className={styles.breadcrumbs}>{crumbs}</div>);
+      headList.push(<nav className={styles.breadcrumbs}>{crumbs}</nav>);
     }
   }
 
