@@ -1,5 +1,6 @@
 ---
-title: Scoran, a Vanilla Minecraft server
+metaTitle: Scoran, a Vanilla Minecraft server
+title: Scoran
 layout: Post
 bgcolor: "#66BBFF"
 ---

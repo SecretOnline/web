@@ -11,7 +11,7 @@ I enjoy games, especially Minecraft, although I do play more than just that. I h
 > What do you need a quote for?
 > <cite>My dad</cite>
 
-Sometimes I make little projects over on [GitHub](https://github.com/SecretOnline). You're welcome to use them, and even to contribute.
+Sometimes I make little [projects](/projects/). You're welcome to use them, and even to contribute.
 
 I used to run a small [Minecraft server](/scoran/). I put a lot of time into that, and I'm proud of what I did on it. That time of my life has passed, but I will always remember the great times/people I had/met over those 4 years.
 
