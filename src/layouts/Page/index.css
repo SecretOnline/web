@@ -17,13 +17,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1em 1.5em;
+  padding: 1em 0;
   position: relative;
 }
 
 .headerWColor,
 .headerWImg {
   color: #fff;
+  padding: 1em 1.5em;
 }
 
 .headerWImg {
@@ -49,4 +50,15 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumbs {
+  margin-bottom: -0.5em;
+}
+
+.crumb,
+.crumb:hover,
+.crumb:active,
+.crumb:visited {
+  color: inherit;
 }
