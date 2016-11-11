@@ -37,7 +37,7 @@ const Page = (
       content: joinUri(process.env.PHENOMIC_USER_URL, __url),
     },
     { property: 'og:description', content: head.description },
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: head.img ? 'summary_large_image' : 'summary' },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:creator', content: `@${ pkg.twitter }` },
     { name: 'twitter:description', content: head.description },
