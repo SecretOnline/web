@@ -7,17 +7,23 @@ import HeaderList from '../../components/HeaderList';
 const numberOfLatestPosts = 6;
 
 const Homepage = (props, { collection }) => {
-  const latestPosts = enhanceCollection(collection, {
-    filters: [{ layout: 'Post'}, i=>!i.hidden],
-    sort: 'date',
-    reverse: true,
-  })
-  .slice(0, numberOfLatestPosts);
+  let layout = props.head.listLayoutFilter;
+  let sort = props.head.listSort || 'priority';
+  let reverse = props.head.listReverse || false;
+
+  let pages = enhanceCollection(collection, {
+    filters: [{layout}, i=>!i.hidden],
+    sort,
+    reverse,
+  });
+
+  if (props.head.listNumPosts) {
+    pages = pages.slice(0, props.head.listNumPosts);
+  }
 
   return (
     <Page { ...props }>
-      <h2>{ 'Latest Posts' }</h2>
-      <HeaderList pages={ latestPosts } />
+      <HeaderList pages={ pages } />
     </Page>
   );
 };
