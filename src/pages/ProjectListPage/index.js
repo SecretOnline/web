@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import enhanceCollection from 'phenomic/lib/enhance-collection';
 
 import Page from '../Page';
-import PagesList from '../../components/PagesList';
+import HeaderList from '../../components/HeaderList';
 
 const ProjectListPage = (props, { collection }) => {
   const projects = enhanceCollection(collection, {
@@ -14,7 +14,7 @@ const ProjectListPage = (props, { collection }) => {
   return (
     <Page { ...props }>
       <h2>{ 'List of Projects' }</h2>
-      <PagesList pages={ projects } />
+      <HeaderList pages={ projects } />
     </Page>
   );
 };

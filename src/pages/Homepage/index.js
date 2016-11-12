@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import enhanceCollection from 'phenomic/lib/enhance-collection';
 
 import Page from '../Page';
-import PagesList from '../../components/PagesList';
+import HeaderList from '../../components/HeaderList';
 
 const numberOfLatestPosts = 6;
 
@@ -17,7 +17,7 @@ const Homepage = (props, { collection }) => {
   return (
     <Page { ...props }>
       <h2>{ 'Latest Posts' }</h2>
-      <PagesList pages={ latestPosts } />
+      <HeaderList pages={ latestPosts } />
     </Page>
   );
 };
