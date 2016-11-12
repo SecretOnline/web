@@ -7,6 +7,7 @@ import Container from '../Container';
 import DefaultHeadMeta from '../DefaultHeadMeta';
 import Header from '../Header';
 import Content from '../Content';
+import Footer from '../Footer';
 
 const AppContainer = (props) => (
   <Container>
@@ -15,6 +16,7 @@ const AppContainer = (props) => (
     <Content>
       { props.children }
     </Content>
+    <Footer />
   </Container>
 );
 

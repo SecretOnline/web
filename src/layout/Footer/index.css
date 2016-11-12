@@ -3,3 +3,7 @@
   background: var(--mainColor);
   text-align: center;
 }
+
+.footerText {
+  margin: 0;
+}
