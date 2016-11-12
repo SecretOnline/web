@@ -13,8 +13,10 @@ const ProjectListPage = (props, { collection }) => {
 
   return (
     <Page { ...props }>
-      <h2>{ 'List of Projects' }</h2>
+      <h2>List of Projects</h2>
       <HeaderList pages={ projects } />
+      <h2>More</h2>
+      All of my open source projects can be found on <a href="https://github.com/${pkg.github}">GitHub</a>.
     </Page>
   );
 };

@@ -51,7 +51,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      <Header head={head} header={header} __url={__url} />
+      <Header  { ...{__url, head, header} } />
       {
         isLoading
         ? <Loading />
