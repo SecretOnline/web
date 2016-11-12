@@ -8,21 +8,14 @@ import Header from '../../components/Header';
 
 import styles from './index.css';
 
-const Page = (
-  {
-    isLoading,
-    __filename,
-    __url,
-    head,
-    body,
-    header,
-    footer,
-    children,
-  },
+const Page = (props
+  ,
   {
     metadata: { pkg },
   }
 ) => {
+  let {isLoading, __filename, __url, head, body, header, footer, children} = props;
+
   invariant(
     typeof head.title === 'string',
     `Your page '${ __filename }' needs a title`
@@ -51,7 +44,7 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      <Header  { ...{__url, head, header} } />
+      <Header  { ...props } />
       {
         isLoading
         ? <Loading />

@@ -5,8 +5,10 @@ import Page from '../Page';
 import styles from './index.css';
 
 const Post = (props) => {
+  let {head} = props;
+
   // it's up to you to choose what to do with this layout ;)
-  const pageDate = props.head.date ? new Date(props.head.date) : null;
+  const pageDate = head.date ? new Date(head.date) : null;
 
   return (
     <Page

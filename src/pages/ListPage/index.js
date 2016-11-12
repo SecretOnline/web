@@ -4,8 +4,6 @@ import enhanceCollection from 'phenomic/lib/enhance-collection';
 import Page from '../Page';
 import HeaderList from '../../components/HeaderList';
 
-const numberOfLatestPosts = 6;
-
 const Homepage = (props, { collection }) => {
   let layout = props.head.listLayoutFilter;
   let sort = props.head.listSort || 'priority';
