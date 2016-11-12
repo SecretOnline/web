@@ -7,3 +7,24 @@
 .footerText {
   margin: 0;
 }
+
+.fade,
+.svg {
+  opacity: 0.5;
+}
+
+.svg {
+  padding: 0 0.2em;
+}
+
+.svg:hover {
+  opacity: 1;
+}
+
+.svg svg {
+  height: 1em;
+  width: 1em;
+  fill: #fff;
+  position: relative;
+  top: 0.2em;
+}
