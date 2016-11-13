@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import {Link} from 'react-router';
 
 import styles from './index.css';
 
@@ -40,18 +41,18 @@ const Header = (
         let arr = [];
         if (i + 1 === parts.length) {
           // Final one, replace with page title
-          arr.push(<a href={__url} className={styles.crumb}>{head.title}</a>);
+          arr.push(<Link to={__url} className={styles.crumb}>{head.title}</Link>);
         } else {
           // Generate the URL for this crumb
           // This would work for the above line, but we already had the __url
           let url = `/${parts.slice(0, i + 1).join('/')}/`;
-          arr.push(<a href={url} className={styles.crumb}>{c}</a>);
+          arr.push(<Link to={url} className={styles.crumb}>{c}</Link>);
           // Spacer
           arr.push(<span> &gt; </span>);
         }
         return arr;
       });
-      crumbs.unshift(<a href='/' className={styles.crumb}>Home</a>, <span> &gt; </span>);
+      crumbs.unshift(<Link to='/' className={styles.crumb}>Home</Link>, <span> &gt; </span>);
       headList.push(<nav className={styles.breadcrumbs}>{crumbs}</nav>);
     }
   }
