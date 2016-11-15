@@ -36,6 +36,9 @@ export default (config = {}) => {
     ...config.dev && {
       devtool: '#cheap-module-eval-source-map',
     },
+    phenomic: {
+      plugins: require('./webpack/phenomic-plugins')
+    },
     module: {
       noParse: /\.min\.js/,
       // webpack 1
@@ -52,6 +55,8 @@ export default (config = {}) => {
           loader: phenomicLoader,
           query: {
             context: path.join(__dirname, config.source),
+            // https://github.com/MoOx/phenomic/issues/871
+            //
             // plugins: [
             //   ...require("phenomic/lib/loader-preset-markdown").default
             // ]
