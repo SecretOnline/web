@@ -38,3 +38,5 @@ function mdPlugin({result}) {
     body: transformMd(result.body)
   };
 }
+
+module.exports = mdPlugin;
