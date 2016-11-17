@@ -4,6 +4,7 @@ const autoLinkHeadings = require('remark-autolink-headings');
 const highlight = require('remark-highlight.js');
 const toc = require('remark-toc');
 const html = require('remark-html');
+const emoji = require('remark-gemoji-to-emoji');
 
 const autolinkConf = {
   content: {
@@ -28,6 +29,7 @@ function transformMd(text) {
     .use(html, htmlConf)
     .use(highlight)
     .use(toc)
+    .use(emoji)
     .process(text, processConf)
     .toString();
 }
