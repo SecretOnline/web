@@ -37,7 +37,7 @@ const Page = (
       content: joinUri(process.env.PHENOMIC_USER_URL, __url),
     },
     { property: 'og:description', content: head.description },
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: head.img ? 'summary_large_image' : 'summary' },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:creator', content: `@${ pkg.twitter }` },
     { name: 'twitter:description', content: head.description },
@@ -61,6 +61,34 @@ const Page = (
   }
   if (header) {
     headList.push(header);
+  }
+
+  // Breadcrumbs
+  if (__url) {
+    // Split url, remove first and last empty string
+    let parts = __url.split('/');
+    parts.shift();
+    parts.pop();
+    // If there's no crumbs, don't do anything
+    if (parts.length) {
+      let crumbs = parts.map((c,i)=>{
+        let arr = [];
+        if (i + 1 === parts.length) {
+          // Final one, replace with page title
+          arr.push(<a href={__url} className={styles.crumb}>{head.title}</a>);
+        } else {
+          // Generate the URL for this crumb
+          // This would work for the above line, but we already had the __url
+          let url = `/${parts.slice(0, i + 1).join('/')}/`;
+          arr.push(<a href={url} className={styles.crumb}>{c}</a>);
+          // Spacer
+          arr.push(<span> &gt; </span>);
+        }
+        return arr;
+      });
+      crumbs.unshift(<a href='/' className={styles.crumb}>Home</a>, <span> &gt; </span>);
+      headList.push(<nav className={styles.breadcrumbs}>{crumbs}</nav>);
+    }
   }
 
   return (

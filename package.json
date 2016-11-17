@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "s_o-web",
+  "name": "s_o",
   "homepage": "https://secretonline.co",
   "twitter": "secret_online",
+  "github": "SecretOnline",
   "repository": "",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
