@@ -1,7 +1,11 @@
 ---
 title: Hi, I'm secret_online
-layout: Homepage
+layout: ListPage
 img: /assets/img/omt.png
+listLayoutFilter: Post
+listNumPosts: 6
+listSort: date
+listReverse: true
 ---
 
 I'm a random person on the internet!
@@ -18,3 +22,5 @@ I used to run a small [Minecraft server](/scoran/). I put a lot of time into tha
 This website is still rather quiet, and I'd like to do more with it. I'm in the process of converting it, so it will get some love.
 
 If you want to get in contact with me, then you can visit the [about page](/about/).
+
+## Latest Posts
