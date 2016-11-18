@@ -91,4 +91,4 @@ Cras vel enim et libero dapibus mattis at et nulla. Aenean elementum felis quis 
 
 # Emoji
 
-:+1::skin-tone-2::ok-hand:
+:+1::skin-tone-2: :ok_hand: :dog:🏻 :flag-nz: :man-woman-girl-boy: :flag-aq:
