@@ -86,3 +86,9 @@ Vivamus facilisis tempor mi at ornare.
 > Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lectus metus, consectetur sed congue vitae, facilisis pellentesque risus.
 Cras vel enim et libero dapibus mattis at et nulla. Aenean elementum felis quis aliquam malesuada. Vivamus in turpis vitae lacus pellentesque laoreet.
 > <cite>Iaculis erat</cite>
+
+---
+
+# Emoji
+
+:+1::skin-tone-2::ok-hand:
