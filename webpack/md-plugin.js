@@ -4,7 +4,7 @@ const autoLinkHeadings = require('remark-autolink-headings');
 const highlight = require('remark-highlight.js');
 const toc = require('remark-toc');
 const html = require('remark-html');
-const emoji = require('remark-gemoji-to-emoji');
+const emoji = require('remark-emoji');
 
 const autolinkConf = {
   content: {
