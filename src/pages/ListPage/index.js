@@ -5,12 +5,16 @@ import Page from '../Page';
 import HeaderList from '../../components/HeaderList';
 
 const Homepage = (props, { collection }) => {
-  let layout = props.head.listLayoutFilter;
+  let layouts = props.head.listLayoutFilter;
+  if (!Array.isArray(layouts)) {
+    layouts = [layouts];
+  }
+
   let sort = props.head.listSort || 'priority';
   let reverse = props.head.listReverse || false;
 
   let pages = enhanceCollection(collection, {
-    filters: [{layout}, i=>!i.hidden],
+    filters: [i=>layouts.indexOf(i.layout)>-1, i=>!i.hidden],
     sort,
     reverse,
   });
