@@ -50,24 +50,4 @@ Bugs in this game, apart from Biters and Spitters, are rare. I, in my *many* hou
 | **Engaging** <br>\* Factorio can keep you occupied for 1 hour, or 12.    | **Not going to go on sale** <br>\* Some like this, because it will stay the same price because it won't go on sale a day after they buy it. <br>\* Some don't like it because $20 is too much for them right now. | **Self-control** <br>\* You'll need it, otherwise you may not sleep tonight. |
 |**Polished gameplay** <br>\* The gameplay loop is solid||
 |**Bug-free** <br>\* If you do find a bug (of the software variety), you can be sure it'll be fixed in the next update. <br>\* Biters, I can't help you with.||
-
-## Pros
-
-* Engaging
-  * Factorio can keep you occupied for 1 hour, or 12.
-* Polished gameplay
-  * The gameplay loop is solid
-* Bug-free
-  * If you do find a bug (of the software variety), you can be sure it'll be fixed in the next update.
-  * Biters, I can't help you with.
-
-## Neutral
-
-* Not going to go on sale
-  * Some like this, because it will stay the same price because it won't go on sale a day after they buy it.
-  * Some don't like it because $20 is too much for them right now.
-
-## Cons
-
-* Self-control
-  * You'll need it, otherwise you may not sleep tonight.
+|**Mods** <br>\* Huge modding scene, if your factory doesn't have enough spaghetti in it already||
