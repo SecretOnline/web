@@ -14,7 +14,7 @@ const Page = (props
     metadata: { pkg },
   }
 ) => {
-  let {isLoading, __filename, __url, head, body, header, footer, children} = props;
+  let {isLoading, __filename, __url, head, body, header, postheader,footer, children} = props;
 
   invariant(
     typeof head.title === 'string',
@@ -45,6 +45,7 @@ const Page = (props
         meta={ meta }
       />
       <Header  { ...props } />
+      {postheader}
       {
         isLoading
         ? <Loading />

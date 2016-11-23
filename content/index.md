@@ -2,7 +2,7 @@
 title: Hi, I'm secret_online
 layout: ListPage
 img: /assets/img/omt.png
-listLayoutFilter: Post
+listLayoutFilter: [Post, ThoughtOn]
 listNumPosts: 6
 listSort: date
 listReverse: true

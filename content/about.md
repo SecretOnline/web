@@ -32,4 +32,4 @@ If you're one of those people who like to see what people do, then head over to 
 * [Email](mailto:me@secretonline.co)  
   For everything else  
   Don't spam. I will laugh at you. Seriously  
-  ![An example 'spam' email I have recieved](/assets/img/email-spam.png)
+  ![An example 'spam' email I have received](/assets/img/email-spam.png)
