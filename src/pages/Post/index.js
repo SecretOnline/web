@@ -8,7 +8,7 @@ const Post = (props) => {
   let {head} = props;
 
   const pageDate = head.date ? new Date(head.date) : null;
-  const editDate = head.date ? new Date(head.edited) : null;
+  const editDate = head.edited ? new Date(head.edited) : null;
 
 
   let dateNodes = [];
