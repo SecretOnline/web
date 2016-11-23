@@ -14,6 +14,8 @@ import styles from './index.css';
 const Footer = () => (
   <footer className={ styles.footer }>
     <p className={ styles.footerText }>
+      <span className={styles.fade}>This site is WIP</span>
+      <span className={styles.fade}>|</span>
       <Link to='mailto:me@secretonline.co'><Svg svg={svgEmail} className={styles.svg} cleanup /></Link>
       <Link to={`https://github.com/${pkg.github}`}><Svg svg={svgGithub} className={styles.svg} cleanup /></Link>
       <Link to={`https://twitter.com/${pkg.twitter}`}><Svg svg={svgTwitter} className={styles.svg} cleanup /></Link>
