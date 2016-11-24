@@ -10,13 +10,10 @@ const Homepage = (props, { collection }) => {
     layouts = [layouts];
   }
 
-  let sort = props.head.listSort || 'priority';
-  let reverse = props.head.listReverse || false;
-
   let posts = enhanceCollection(collection, {
     filters: [i=>['Post','ThoughtOn'].indexOf(i.layout)>-1, i=>!i.hidden],
-    sort,
-    reverse,
+    sort: 'date',
+    reverse: true,
   });
   if (props.head.listNumPosts) {
     posts = posts.slice(0, props.head.listNumPosts);
@@ -24,8 +21,8 @@ const Homepage = (props, { collection }) => {
 
   let projects = enhanceCollection(collection, {
     filters: [i=>['Project'].indexOf(i.layout)>-1, i=>!i.hidden],
-    sort,
-    reverse,
+    sort: 'priority',
+    reverse: true
   });
   if (props.head.listNumPosts) {
     projects = projects.slice(0, props.head.listNumPosts);

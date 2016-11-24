@@ -3,6 +3,7 @@ title: No Man's Sky Countdown
 layout: Project
 bgcolor: "#7FBC4A"
 github: NMS-Countdown
+priority: -10
 ---
 
 Before the release of [No Man's Sky](http://www.no-mans-sky.com/), I was a reasonably active member of the game's community on the [/r/NoMansSkyTheGame subreddit](https://reddit.com/r/NoMansSkyTheGame).
