@@ -1,8 +1,7 @@
 ---
 title: Hi, I'm secret_online
-layout: ListPage
+layout: HomePage
 img: /assets/img/omt.png
-listLayoutFilter: [Post, ThoughtOn]
 listNumPosts: 6
 listSort: date
 listReverse: true
@@ -24,5 +23,3 @@ I used to run a small [Minecraft server](/scoran/). I put a lot of time into tha
 This website is still rather quiet, and I'd like to do more with it. I'm in the process of converting it, so it will get some love.
 
 If you want to get in contact with me, then you can visit the [about page](/about/).
-
-## Latest Posts

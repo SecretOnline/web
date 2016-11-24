@@ -9,6 +9,7 @@ import Post from './pages/Post';
 import Project from './pages/Project';
 import ListPage from './pages/ListPage';
 import ThoughtOn from './pages/ThoughtOn';
+import HomePage from './pages/HomePage';
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -19,7 +20,8 @@ const PageContainer = (props) => (
       Post,
       Project,
       ListPage,
-      ThoughtOn
+      ThoughtOn,
+      HomePage
     }}
   />
 );
