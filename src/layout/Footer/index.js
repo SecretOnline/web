@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router';
+import {Link} from 'phenomic';
 import Svg from 'react-svg-inline';
 
 import meta from '../../metadata';
