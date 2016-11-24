@@ -14,7 +14,7 @@ const Post = (props) => {
   let dateNodes = [];
   if (pageDate) {
     dateNodes.push(
-      <em><time key={ pageDate.toISOString() }>
+      <em key={ pageDate.toISOString() }><time>
         { pageDate.toDateString() }
       </time></em>
     );
@@ -24,7 +24,7 @@ const Post = (props) => {
   }
   if (editDate) {
     dateNodes.push(
-      <em><time key={ editDate.toISOString() }>
+      <em key={ editDate.toISOString() }><time>
         Edited: { editDate.toDateString() }
       </time></em>
     );

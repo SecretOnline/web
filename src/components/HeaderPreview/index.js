@@ -28,7 +28,7 @@ const HeaderPreview = (
   }
 
   return (
-      <div className={headClass} style={headStyle}>{headList}</div>
+      <div className={headClass} style={headStyle} key={title}>{headList}</div>
   );
 };
 

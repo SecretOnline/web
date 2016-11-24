@@ -57,16 +57,16 @@ const Page = (props
   );
 };
 
-Page.propTypes = {
-  isLoading: PropTypes.boolean,
-  children: PropTypes.node,
-  __filename: PropTypes.string.isRequired,
-  __url: PropTypes.string.isRequired,
-  head: PropTypes.object.isRequired,
-  body: PropTypes.string,
-  header: PropTypes.element,
-  footer: PropTypes.element,
-};
+// Page.propTypes = {
+//   isLoading: PropTypes.boolean,
+//   children: PropTypes.node,
+//   __filename: PropTypes.string.isRequired,
+//   __url: PropTypes.string.isRequired,
+//   head: PropTypes.object.isRequired,
+//   body: PropTypes.string,
+//   header: PropTypes.element,
+//   footer: PropTypes.element,
+// };
 
 Page.contextTypes = {
   metadata: PropTypes.object.isRequired,
