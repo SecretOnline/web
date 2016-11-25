@@ -1,6 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router';
 import { PageContainer as PhenomicPageContainer } from 'phenomic';
+import ReactGA from 'react-ga';
+import meta from './metadata';
 
 import AppContainer from './layout/AppContainer';
 import Page from './pages/Page';
@@ -10,6 +12,13 @@ import Project from './pages/Project';
 import ListPage from './pages/ListPage';
 import ThoughtOn from './pages/ThoughtOn';
 import HomePage from './pages/HomePage';
+
+ReactGA.initialize(meta.pkg.ga);
+
+const change = (loc) => {
+  ReactGA.set({page: loc.pathname});
+  ReactGA.pageview(loc.pathname);
+};
 
 const PageContainer = (props) => (
   <PhenomicPageContainer
@@ -27,7 +36,17 @@ const PageContainer = (props) => (
 );
 
 export default (
-  <Route component={ AppContainer }>
+  <Route
+    component={ AppContainer }
+    onChange={(prevState, nextState, replace) => {
+      change(nextState.location);
+      return true;
+    }}
+    onEnter={(nextState) => {
+      change(nextState.location);
+      return true;
+    }}
+    >
     <Route path="*" component={ PageContainer } />
   </Route>
 );
