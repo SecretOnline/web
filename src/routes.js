@@ -13,7 +13,10 @@ import ListPage from './pages/ListPage';
 import ThoughtOn from './pages/ThoughtOn';
 import HomePage from './pages/HomePage';
 
-ReactGA.initialize(meta.pkg.ga);
+let window = window || null;
+if (window) {
+  ReactGA.initialize(meta.pkg.ga);
+}
 
 const change = (loc) => {
   ReactGA.set({page: loc.pathname});
