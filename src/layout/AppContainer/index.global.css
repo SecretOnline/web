@@ -150,3 +150,8 @@ th {
 td {
   vertical-align: top;
 }
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
