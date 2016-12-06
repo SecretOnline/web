@@ -21,7 +21,7 @@ I've put a few restrictions on this list, to make sure that I don't just go on a
   Although I haven't received any copies of games for review/any other purpose, I'm putting this one here for the future, or for anyone else who wants to follow these guidelines.
 
 
-<!-- I have put these guidelines in a better format [on their own page](linkylink). If you want to do something like this on your own website/blog, feel free to use them. -->
+I have put these guidelines in a better format [on their own page](/posts/review-guidelines/). If you want to do something like this on your own website/blog, feel free to use them.
 
 ---
 
