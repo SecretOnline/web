@@ -2,6 +2,7 @@
 title: Under Construction
 date: 2016-11-10
 layout: Post
+hidden: true
 ---
 
 Pretty much what the title says.
