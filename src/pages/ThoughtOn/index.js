@@ -53,4 +53,6 @@ ThoughtOn.propTypes = {
   head: PropTypes.object.isRequired,
 };
 
+ThoughtOn.type = 'Thoughts On:';
+
 export default ThoughtOn;

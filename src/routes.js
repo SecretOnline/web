@@ -22,18 +22,27 @@ const change = (loc) => {
   ReactGA.pageview(loc.pathname);
 };
 
+const layoutList = {
+  Page,
+  PageError,
+  Post,
+  Project,
+  ListPage,
+  ThoughtOn,
+  HomePage
+};
+
+// Add friendly names of pages to metadata
+Object.keys(layoutList).forEach((key) => {
+  if (layoutList[key].type) {
+    meta.layoutNames[key] = layoutList[key].type;
+  }
+});
+
 const PageContainer = (props) => (
   <PhenomicPageContainer
     { ...props }
-    layouts={{
-      Page,
-      PageError,
-      Post,
-      Project,
-      ListPage,
-      ThoughtOn,
-      HomePage
-    }}
+    layouts={layoutList}
   />
 );
 

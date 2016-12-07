@@ -10,7 +10,7 @@ const pkg = meta.pkg;
 
 const Project = (props) => {
   let {head} = props;
-  
+
   const url = head.github ? `https://github.com/${pkg.github}/${head.github}` : null;
 
   return (
@@ -28,5 +28,7 @@ const Project = (props) => {
 Project.propTypes = {
   head: PropTypes.object.isRequired,
 };
+
+Project.type = 'Project';
 
 export default Project;

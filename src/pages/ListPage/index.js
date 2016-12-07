@@ -42,13 +42,16 @@ const Homepage = (props, { collection }) => {
 
   let pages = enhanceCollection(collection, enhancer);
 
-  if (props.head.listNumPosts) {
-    pages = pages.slice(0, props.head.listNumPosts);
+  let elProps = {
+    pages
+  };
+  if (hf.showTypes) {
+    elProps.showTypes = true;
   }
 
   return (
     <Page { ...props }>
-      <HeaderList pages={ pages } />
+      <HeaderList {...elProps} />
     </Page>
   );
 };

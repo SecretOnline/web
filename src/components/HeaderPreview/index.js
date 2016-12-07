@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 
+import meta from '../../metadata';
 // Poach styles from header, that way it only needs to be written once
 import styles from '../Header/index.css';
 
@@ -8,12 +9,20 @@ const HeaderPreview = (
     __url,
     title,
     img,
-    bgcolor
+    bgcolor,
+    layout,
+    showType
   }
 ) => {
   const headList = [];
   const headStyle = {};
   let headClass = styles.header;
+
+  if (showType) {
+    if (meta.layoutNames[layout]) {
+      headList.push(<p className={styles.type}>{meta.layoutNames[layout]}</p>);
+    }
+  }
 
   if (img) {
     headClass = styles.headerWImg;
@@ -24,7 +33,7 @@ const HeaderPreview = (
     headStyle.backgroundColor = bgcolor;
   }
   if (title) {
-    headList.push(<h1 className={ styles.heading }>{ title }</h1>);
+    headList.push(<h1 className={ styles.heading } key="title">{ title }</h1>);
   }
 
   return (

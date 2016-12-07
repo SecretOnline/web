@@ -7,6 +7,7 @@ listFilter:
   sort: date
   reverse: true
   limit: 10
+  showTypes: true
 ---
 
 I'm a random person on the internet!

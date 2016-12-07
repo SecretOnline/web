@@ -42,4 +42,6 @@ Post.propTypes = {
   head: PropTypes.object.isRequired,
 };
 
+Post.type = 'Post';
+
 export default Post;

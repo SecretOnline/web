@@ -12,6 +12,7 @@
   justify-content: space-between;
   padding: 1em 1.5em;
   position: relative;
+  color: #185500;
 }
 
 .headerWColor,
@@ -53,5 +54,12 @@
 .crumb:hover,
 .crumb:active,
 .crumb:visited {
+  color: inherit;
+}
+
+.type {
+  margin: 0;
+  align-self: flex-end;
+  position: relative;
   color: inherit;
 }

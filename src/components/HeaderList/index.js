@@ -5,7 +5,7 @@ import HeaderPreview from '../HeaderPreview';
 
 import styles from './index.css';
 
-const HeaderList = ({ pages }) => {
+const HeaderList = ({ pages, showTypes }) => {
   return (
     <div>
       {
@@ -15,7 +15,9 @@ const HeaderList = ({ pages }) => {
           {
           pages.map((page) => {
             let info = {...page};
-            info.inHeaderList = true;
+            if (showTypes) {
+              info.showType = true;
+            }
             return (
               <li className={styles.item} key={ info.title }>
                 <Link to={info.__url}>
