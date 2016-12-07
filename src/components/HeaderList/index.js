@@ -13,13 +13,17 @@ const HeaderList = ({ pages }) => {
       ? (
         <ul className={styles.container}>
           {
-          pages.map((page) => (
-            <li className={styles.item} key={ page.title }>
-              <Link to={page.__url}>
-                <HeaderPreview { ...page } />
-              </Link>
-            </li>
-          ))
+          pages.map((page) => {
+            let info = {...page};
+            info.inHeaderList = true;
+            return (
+              <li className={styles.item} key={ info.title }>
+                <Link to={info.__url}>
+                  <HeaderPreview { ...info } />
+                </Link>
+              </li>
+            );
+          })
         }
         </ul>
       )

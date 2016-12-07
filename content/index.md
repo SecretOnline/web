@@ -1,10 +1,12 @@
 ---
 title: Hi, I'm secret_online
-layout: HomePage
+layout: ListPage
 img: /assets/img/omt.png
-listNumPosts: 6
-listSort: date
-listReverse: true
+listFilter:
+  layout: [Post,Project,ThoughtOn]
+  sort: date
+  reverse: true
+  limit: 10
 ---
 
 I'm a random person on the internet!
