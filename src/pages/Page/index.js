@@ -34,9 +34,33 @@ const Page = (props
     { name: 'twitter:card', content: head.img ? 'summary_large_image' : 'summary' },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:creator', content: `@${ pkg.twitter }` },
+    { name: 'twitter:author', content: `@${ pkg.twitter }` },
     { name: 'twitter:description', content: head.description },
     { name: 'description', content: head.description },
   ];
+
+  if (head.img) {
+    let imgUrl = joinUri(process.env.PHENOMIC_USER_URL, head.img);
+    meta.push(
+      {name: 'twitter:image', content: imgUrl,},
+      {property: 'og:image', content: imgUrl}
+    );
+  }
+
+  if (head.date) {
+    let edited = head.edited || head.date;
+
+    meta.push(
+      {name: 'article:published_time', content: head.date},
+      {name: 'article:modified_time', content: edited}
+    );
+  }
+
+  if (head.tags) {
+    head.tags.forEach((t) => {
+      meta.push({name: 'article:tag', content: t});
+    });
+  }
 
   return (
     <div className={ styles.page }>
