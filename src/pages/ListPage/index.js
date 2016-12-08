@@ -25,7 +25,15 @@ const Homepage = (props, { collection }) => {
     if (!Array.isArray(paths)) {
       paths = [paths];
     }
-    filters.push(i=>paths.reduce(((o,p)=>!!(o||i.__url.match(p))),false));
+    filters.push(i=>paths.reduce(((o,p)=>(o||!!i.__url.match(p))),false));
+  }
+
+  if (hf.tags) {
+    let tags = hf.tags;
+    if (!Array.isArray(tags)) {
+      tags = [tags];
+    }
+    filters.push(i=>i.tags&&hf.tags.reduce(((o,p)=>(o||!!i.tags.includes(p))),false));
   }
 
   let sort = hf.sort || 'priority';
