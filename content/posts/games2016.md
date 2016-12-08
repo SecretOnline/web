@@ -6,6 +6,8 @@ layout: Post
 
 # Introduction
 
+<!-- desc -->
+
 Believe it or not, I play games for fun. For some, it's their job. For others, their life. For me, it's a way of unwinding at the end of the day. As such, I often go away from game awards and presentations thinking "*that wasn't for me*", and I feel that takes away from the idea of celebrating the games and the people behind them.
 
 So, I'm going to list some of the games that I have played this year, and what I enjoy about them. These aren't really awards, just a list of games I enjoyed or thought need talking about.

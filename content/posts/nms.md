@@ -15,6 +15,8 @@ I wanted to put down my experiences before the release of No Man's Sky before I 
 
 # Beginnings
 
+<!-- desc -->
+
 The story starts in late 2013. I was in the library, talking with friends about games. (The library had an area where people could talk. It was often used for chess, debate team preparation, book clubs, etc.) One of them had heard about this ambitious universe generator which would be a really great game. At that time I thought "meh", and moved on.
 
 Fast forward a couple of years to E3 2015.  There were a couple of things inbetween, but they're not as important as this event.  [Watching the gameplay](https://www.youtube.com/watch?v=v5sBbjckyzU) happen was amazing. I loved it, and jumped aboard the hype train, which was just about to leave the station.

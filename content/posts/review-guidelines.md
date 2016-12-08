@@ -11,6 +11,8 @@ We live in a world where reviews are taken into consideration when purchases are
 
 Luckily, people have become aware of these practices, and we have this idea of disclosure: if you got this game for review purposes, or if you get paid for these reviews, you need to state this clearly. This is a good step forward.
 
+<!-- desc -->
+
 These guidelines are for public use, if you want to use them yourself, go ahead. If you don't, then don't.
 
 # Guidelines for Reviews

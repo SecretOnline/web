@@ -15,6 +15,8 @@ website: https://www.factorio.com/
 
 ---
 
+<!-- desc -->
+
 On the odd occasion when people ask me "*What have you been playing, secret?*", I'll often answer with Factorio. It is one of the best examples to give as a counterpoint to "early access doesn't work". It is addictive to the point of me wanting to call this post "Cracktorio" instead.
 
 # So what is it?
