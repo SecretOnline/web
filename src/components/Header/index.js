@@ -22,7 +22,7 @@ const Header = (
     headStyle.backgroundColor = head.bgcolor;
   }
   if (head.title) {
-    headList.push(<h1 className={ styles.heading }>{ head.title }</h1>);
+    headList.push(<h1 className={ styles.heading } key='title'>{ head.title }</h1>);
   }
   if (header) {
     headList.push(header);
@@ -40,19 +40,19 @@ const Header = (
         let arr = [];
         if (i + 1 === parts.length) {
           // Final one, replace with page title
-          arr.push(<Link to={__url} className={styles.crumb}>{head.title}</Link>);
+          arr.push(<Link to={__url} className={styles.crumb} key='bc-final'>{head.title}</Link>);
         } else {
           // Generate the URL for this crumb
           // This would work for the above line, but we already had the __url
           let url = `/${parts.slice(0, i + 1).join('/')}/`;
-          arr.push(<Link to={url} className={styles.crumb}>{c}</Link>);
+          arr.push(<Link to={url} className={styles.crumb} key={`bc-${i}`}>{c}</Link>);
           // Spacer
-          arr.push(<span> &gt; </span>);
+          arr.push(<span key={`spacer-${i}`}> &gt; </span>);
         }
         return arr;
       });
-      crumbs.unshift(<Link to='/' className={styles.crumb}>Home</Link>, <span> &gt; </span>);
-      headList.push(<nav className={styles.breadcrumbs}>{crumbs}</nav>);
+      crumbs.unshift(<Link to='/' className={styles.crumb} key='bc-home'>Home</Link>, <span key='spacer-home'> &gt; </span>);
+      headList.push(<nav className={styles.breadcrumbs} key='breadcrumbs'>{crumbs}</nav>);
     }
   }
 
@@ -62,7 +62,7 @@ const Header = (
 };
 
 Header.propTypes = {
-  __url: PropTypes.string.isRequired,
+  __url: PropTypes.string,
   head: PropTypes.object.isRequired,
   header: PropTypes.element
 };

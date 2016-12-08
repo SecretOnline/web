@@ -25,7 +25,7 @@ const Homepage = (props, { collection }) => {
     if (!Array.isArray(paths)) {
       paths = [paths];
     }
-    filters.push(i=>paths.reduce(((o,p)=>o||i.__url.match(p)),false));
+    filters.push(i=>paths.reduce(((o,p)=>!!(o||i.__url.match(p))),false));
   }
 
   let sort = hf.sort || 'priority';
