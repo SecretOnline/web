@@ -3,7 +3,7 @@ title: Hi, I'm secret_online
 layout: ListPage
 img: /assets/img/omt.png
 listFilter:
-  layout: [Post,Project,ThoughtOn]
+  layout: [Post,Project,Game]
   sort: date
   reverse: true
   limit: 10

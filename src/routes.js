@@ -10,7 +10,7 @@ import PageError from './pages/PageError';
 import Post from './pages/Post';
 import Project from './pages/Project';
 import ListPage from './pages/ListPage';
-import ThoughtOn from './pages/ThoughtOn';
+import Game from './pages/Game';
 import HomePage from './pages/HomePage';
 
 if (browserHistory) {
@@ -28,7 +28,7 @@ const layoutList = {
   Post,
   Project,
   ListPage,
-  ThoughtOn,
+  Game,
   HomePage
 };
 

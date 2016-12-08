@@ -11,7 +11,7 @@ const Homepage = (props, { collection }) => {
   }
 
   let posts = enhanceCollection(collection, {
-    filters: [i=>['Post','ThoughtOn'].indexOf(i.layout)>-1, i=>!i.hidden],
+    filters: [i=>['Post','Game'].indexOf(i.layout)>-1, i=>!i.hidden],
     sort: 'date',
     reverse: true,
   });

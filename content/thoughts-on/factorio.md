@@ -1,6 +1,6 @@
 ---
 title: Factorio
-layout: ThoughtOn
+layout: Game
 date: 2016-11-24
 img: http://i.imgur.com/82zBXPN.jpg
 steam: 427520

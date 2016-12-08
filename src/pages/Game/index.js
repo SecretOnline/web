@@ -4,7 +4,7 @@ import Page from '../Page';
 
 import styles from './index.css';
 
-const ThoughtOn = (props) => {
+const Game = (props) => {
   let {head} = props;
 
   head.metaTitle = head.metaTitle || `Thoughts On: ${head.title}`;
@@ -49,10 +49,10 @@ const ThoughtOn = (props) => {
   );
 };
 
-ThoughtOn.propTypes = {
+Game.propTypes = {
   head: PropTypes.object.isRequired,
 };
 
-ThoughtOn.type = 'Thoughts On:';
+Game.type = 'Thoughts On:';
 
-export default ThoughtOn;
+export default Game;
