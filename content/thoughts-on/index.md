@@ -1,8 +1,9 @@
 ---
 title: Thoughts On...
 layout: ListPage
+hidden: true
 listFilter:
-  layout: ThoughtOn
+  path: ['/thoughts-on/']
   limit: 6
   sort: date
   reverse: true
