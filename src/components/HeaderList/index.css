@@ -7,7 +7,7 @@
 
 .item {
   list-style: none;
-  width: calc(50% - 1em);
+  width: 100%;
 }
 
 .item a:hover {
@@ -16,4 +16,10 @@
 
 .item > a > div {
   min-height: 0;
+}
+
+@media all and (min-width: 900px) {
+  .item {
+    width: calc(50%);
+  }
 }

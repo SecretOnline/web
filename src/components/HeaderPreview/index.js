@@ -16,20 +16,20 @@ const HeaderPreview = (
 ) => {
   const headList = [];
   const headStyle = {};
-  let headClass = styles.header;
+  let headClasses = [styles.header];
 
   if (showType) {
     if (meta.layoutNames[layout]) {
       headList.push(<p className={styles.type}>{meta.layoutNames[layout]}</p>);
+      headClasses.push(styles.showsType);
     }
   }
 
   if (img) {
-    headClass = styles.headerWImg;
+    headClasses.push(styles.headerWImg);
     headStyle.backgroundImage = `url(${img})`;
-  }
-  if (bgcolor) {
-    headClass = styles.headerWColor;
+  } else if (bgcolor) {
+    headClasses.push(styles.headerWColor);
     headStyle.backgroundColor = bgcolor;
   }
   if (title) {
@@ -37,7 +37,7 @@ const HeaderPreview = (
   }
 
   return (
-      <div className={headClass} style={headStyle} key={title}>{headList}</div>
+      <div className={headClasses.join(' ')} style={headStyle} key={title}>{headList}</div>
   );
 };
 

@@ -12,14 +12,13 @@ const Header = (
 ) => {
   const headList = [];
   const headStyle = {};
-  let headClass = styles.header;
+  let headClasses = [styles.header];
 
   if (head.img) {
-    headClass = styles.headerWImg;
+    headClasses.push(styles.headerWImg);
     headStyle.backgroundImage = `url(${head.img})`;
-  }
-  if (head.bgcolor) {
-    headClass = styles.headerWColor;
+  } else if (head.bgcolor) {
+    headClasses.push(styles.headerWColor);
     headStyle.backgroundColor = head.bgcolor;
   }
   if (head.title) {
@@ -58,7 +57,7 @@ const Header = (
   }
 
   return (
-      <div className={headClass} style={headStyle}>{headList}</div>
+      <div className={headClasses.join(' ')} style={headStyle}>{headList}</div>
   );
 };
 
