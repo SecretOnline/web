@@ -3,6 +3,7 @@ title: Projects
 layout: ListPage
 listFilter:
   layout: Project
+  sort: date
   reverse: true
 ---
 

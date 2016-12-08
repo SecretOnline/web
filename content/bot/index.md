@@ -3,7 +3,7 @@ title: secret_bot
 layout: Project
 github: bot
 bgcolor: '#001855'
-priority: 1
+date: 2016-11-29
 ---
 
 # What is secret_bot?

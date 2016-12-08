@@ -3,7 +3,7 @@ title: Info-Repo
 layout: Project
 bgcolor: "#01385B"
 github: Info-Repo
-priority: -9
+date: 2016-11-09
 ---
 
 [No Man's Sky](http://www.no-mans-sky.com/) is a game that came out in August 2016. It set some rather lofty goals, with 18 quintillion procedurally generated planets. It managed to do that, but what it failed to do was be a fun game.
