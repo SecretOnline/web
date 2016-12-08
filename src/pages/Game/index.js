@@ -53,6 +53,6 @@ Game.propTypes = {
   head: PropTypes.object.isRequired,
 };
 
-Game.type = 'Thoughts On:';
+Game.type = 'Game';
 
 export default Game;

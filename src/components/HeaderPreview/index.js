@@ -11,7 +11,8 @@ const HeaderPreview = (
     img,
     bgcolor,
     layout,
-    showType
+    showType,
+    type
   }
 ) => {
   const headList = [];
@@ -19,8 +20,16 @@ const HeaderPreview = (
   let headClasses = [styles.header];
 
   if (showType) {
+    let t;
     if (meta.layoutNames[layout]) {
-      headList.push(<p className={styles.type}>{meta.layoutNames[layout]}</p>);
+      t = meta.layoutNames[layout];
+    }
+    if (type) {
+      t = type;
+    }
+
+    if (t) {
+      headList.push(<p className={styles.type} key="type">{t}</p>);
       headClasses.push(styles.showsType);
     }
   }

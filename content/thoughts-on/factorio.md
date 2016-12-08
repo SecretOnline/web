@@ -1,6 +1,7 @@
 ---
 title: Factorio
 layout: Game
+type: 'Thoughts On:'
 date: 2016-11-24
 img: http://i.imgur.com/82zBXPN.jpg
 steam: 427520
