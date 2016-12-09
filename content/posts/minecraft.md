@@ -44,6 +44,8 @@ One week after the mid-term break, two of the laptops had this new game on it. I
 
 This new game, in case you hadn't figured already, was a rather blocky and pixelated game called Minecraft. I'm not sure what it was about it, but I almost instantly caught on. I would try to watch the people playing whenever they played it. Something just captivated me. I even started sitting next to the guy I didn't like as he played it.
 
+![Sunrise over a friend's world](/assets/img/posts/minecraft/sunrise.png)
+
 ## 8th April 2011
 
 This day is a bit of an important day for me. It's not actually that important, but I like to remember it. This is the day that I bought Minecraft for myself.
