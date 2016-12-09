@@ -16,6 +16,7 @@
 
 .item > a > div {
   min-height: 0;
+  height: 100%;
 }
 
 @media all and (min-width: 900px) {
