@@ -9,6 +9,8 @@ img: /assets/img/posts/minecraft/storage.png
 
 ---
 
+<!-- desc -->
+
 After writing the [No Man's Sky and I](/posts/nms/) post, I thought I'd revisit an old thing I wrote a couple of years ago. While the story of NMS is a short one, the story of Minecraft spans the entire time I'd call myself a 'gamer'.
 
 This version of the post goes into a bit more detail than it did previously. I guess I really wanted to point out just how much this game affected me and my growth as a person. I've tried to leave more personal details out, but even so, please don't go trying to find me IRL. I will think you're a creep, and will do something about it.
