@@ -1,8 +1,13 @@
 ---
 title: Minecraft and I; A Brief History
 date: 2016-12-09
+edited: 2016-12-10
 layout: Post
-img: /assets/img/posts/minecraft/storage.png
+img: /assets/img/posts/minecraft/wolf.png
+---
+
+*Edit 09-12-2016: I found a lot of my old screenshots, so I've added some of them in to this*
+
 ---
 
 # Table of Contents
@@ -55,9 +60,11 @@ This continued for a couple of months, before I moved out. I waked about 4k away
 
 You might think that my most prized possession was a Diamond Pick, or something similar. No, it wasn't. The best thing I had was a lava bucket. The spot I had found had an overhang, so I shaped the top of it a bit, then poured the bucket. The resulting flow covered the top of the peak, and made a curtain over the overhang. I then got out a bucket of water, and poured it on top, turning the entire thing into cobblestone.
 
-I wish I had the screenshot I took, but it seems to have been lost to the ages. I've spent a couple of hours searching for it, but it just can't be found.
+![My first proper house on the server](/assets/img/posts/minecraft/cobble.png)
 
-Now that I actuall had a house, I started being a bit more active on the server. Not just in terms of hours online, but also in chat. Minecraft had given me an opportunity to start fresh, to be that confident person I wanted to be. And it worked. Over the rest of the year, I worked on it, then tried to take that confidence out into the real world.
+That screenshot is from a bit later on, but I don't have a screenshot from earlier. Inside the dirt box on the left is about 30 or so wolves.
+
+Now that I actually had a house, I started being a bit more active on the server. Not just in terms of hours online, but also in chat. Minecraft had given me an opportunity to start fresh, to be that confident person I wanted to be. And it worked. Over the rest of the year, I worked on it, then tried to take that confidence out into the real world.
 
 And it worked. I had more opportunities to be social than the weekly LAN parties, but as mentioned at the top, I've left some more personal details out of this.
 
@@ -67,7 +74,11 @@ This is really just a short section, as not much different happened here.
 
 The server I played on reset their world for Minecraft 1.8, with the new world generation. The admins teleported out over 10,000 blocks, and some of the members of the server joined them for a 'ravine survival', where we spent all out time underground in an area with many ravines. I wasn't included in the initial lot, because I wasn't online at the time. However, I asked to join them, and got whisked over to begin my life as a melon farmer.
 
-That rally all I did in that world, I farmed melons. I thought they were a great food source (they're not, they're actually one of the worst), and they were easily farmed. I kept everyone fed during that time. Eventually the ravine survival slowed down, and everyone started building houses on the surface. I joined them in that, and helped join everyone up with rails.
+![Even my door had melons](/assets/img/posts/minecraft/melons.png)
+
+That was really all I did in that world, I farmed melons. I thought they were a great food source (they're not, they're actually one of the worst), and they were easily farmed. I kept everyone fed during that time. Eventually the ravine survival slowed down, and everyone started building houses on the surface. I joined them in that, and helped join everyone up with rails.
+
+![I didn't stop farming melons, though](/assets/img/posts/minecraft/more-melons.png)
 
 # 2012
 
@@ -85,7 +96,13 @@ Another date, another April. This was the day I started my own server.
 
 In the beginning, it was just for me to build stuff in. I used it to run some Bukkit plugins to help me with building.
 
+![One of the first things I built was a hot air balloon](/assets/img/posts/minecraft/balloon.png)
+
+![I even played with Redstone, creating a huge and messy 7 segment display](/assets/img/posts/minecraft/display.png)
+
 There's really not too much interesting to say here, other than that this was the time I got better at building in Minecraft. I started doing curves in buildings, I started making better block choices. I even tried building some really big things.
+
+![Maybe a little too big...](/assets/img/posts/minecraft/mansion.png)
 
 ## Scoran
 
@@ -99,9 +116,15 @@ I opened the server to the public, put it up in a couple of places, and started 
 
 Eventually, a few people stuck around. The server grew a little, but I didn't mind. We had a small, friendly community, and we enjoyed playing each day. Some people left, some more joined. The faces changed, the world changed, but the feeling was the same
 
+![Dirt house competition](/assets/img/posts/minecraft/dirt.png)
+
 I consider these the best times I had playing Minecraft. I've made friends who, hopefully, I will continue to talk with for life.
 
+![A small village for Villagers. The golems always partied on that roof](/assets/img/posts/minecraft/golem-party.png)
+
 Over this time I learned more about how to lead people. I had to, since I was running a server. And just like before, I was able to transfer these skills into the real world. My small IRL friend group grew a little, and the number of people I didn't like dwindled. I came to realise that most of the problems I had socially were caused by me and I needed to fix them, so I did. I wouldn't have been able to do that on my own, but I had help from a game.
+
+![The main town on World 2](/assets/img/posts/minecraft/town.png)
 
 ## Scoran Shutdown
 
